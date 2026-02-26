@@ -7,6 +7,5 @@ app.get("/addContent",async (req,res) => {
 app.get("/posts",async (req,res) => {
   res.send("display posts");
 });
-//start server
 app.listen(port, () => console.log(`Server running on port ${port}`)
 );
